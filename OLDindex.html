@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+
+<head>
+    <!-- Google Tag Manager -->
+
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WF462BJ');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta name='copyright' content='Club de Helados Jauja' />
+    <title>Club de Helados Cecenarro - ver20240614</title>
+    <meta name='Description' content='Club de Helados Jauja' />
+    <meta name="facebook-domain-verification" content="wdtrtq9hho5tbgbqco92pgrohe9pya" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/css/base.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WF462BJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="barraSuperior">
+        <nav>
+            <div class="contenedorNav">
+                <div class="cajaLogoJauja">
+                    <div class="logoJauja">
+                        <a href="/">
+                            <div id="logoGrande"><img src="/img/logoClubJauja.jpg" alt="ClubJauja" style="height: 120px; border-radius: 5px;" /></div>
+                            <div id="logoChico"><img src="/img/logoClubJaujaChico.png" alt="ClubJauja" /></div>
+                        </a>
+                    </div>
+                </div>
+                <ul class="menuIngreso menuRight">
+                    <li><a title="Ingresá a ClubJauja"></i> Ingresá</a></li>
+                </ul>
+                <div id="cajaMenu">
+                    <div class="iconoMenu">
+                        <div><i class="fa fa-bars"></i></div>
+                    </div>
+                    <ul class="menuSuperior">
+                        <li><a href="php/index.php">Inicio</a></li>
+                        <li><a href="php/Constantes.php">Constantes</a></li>
+                        <li><a href="php/ArchivoPDF.php">Articulo</a></li>
+                        <li><a href="php/arreglos.php">Arreglos</a></li>
+                        <li><a target="_blank" href="http://www.jauja.com.ar">Visitá<br />nuestra web</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="fondoSup">
+        <ul id="parallax1" class="parallax" data-calibrate-x="false" data-calibrate-y="false" data-invert-x="true" data-invert-y="true" data-limit-x="false" data-limit-y="false" data-scalar-x="6" data-scalar-y="10" data-friction-x="0.2" data-friction-y="0.4" data-origin-x="0.0" data-origin-y="0.0">
+            <li class="layer" data-depth="0.10"><img src="/img/sol.png"></li>
+            <li class="layer" data-depth="0.30"><img src="/img/pajaros_1.png"></li>
+            <li class="layer" data-depth="0.40"><img src="/img/nubes_1.png"></li>
+            <li class="layer" data-depth="0.60"><img src="/img/pajaros_2.png"></li>
+        </ul>
+        <div class="franjaSup">
+            <div class="contenedorSup">
+                <div class="cajaSlide">
+                    <div id="cajaFotoPrincipal">
+                        <div id="slideIzq">
+                            <i class="fa fa-chevron-left fa-lg"></i>
+                        </div>
+                        <div id="slideDer">
+                            <i class="fa fa-chevron-right fa-lg"></i>
+                        </div>
+                        <div class="fotoPrincipal">
+                            <div id="navSlide">
+                                <i class="fa fa-circle-o" id="slide1" onmouseout="cambiaropa('1','fa fa-circle-o opa80');" onmouseover="cambiaropa('1','fa fa-circle-o opa100');" onclick="elijoFoto('1','cajaMuestraFoto',this);"></i>
+                                <i class="fa fa-circle-o" id="slide2" onmouseout="cambiaropa('2','fa fa-circle-o opa80');" onmouseover="cambiaropa('2','fa fa-circle-o opa100');" onclick="elijoFoto('2','cajaMuestraFoto',this);"></i>
+                            </div>
+                            <div id="fotoActual">
+                                <img src='/img/slide-1.jpg'>
+                            </div>
+                            <div id="fotoAnterior"></div>
+                            <div id="fotoSiguiente"></div>
+                            <div class='sombra'></div>
+                        </div>
+                    </div>
+                    <div id="cajaFotoPrincipalChica">
+                        <div id="fotoActual">
+                            <img src='/img/slide-1b.jpg'>
+                            <div id="fotoAnterior"></div>
+                            <div id="fotoSiguiente"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fondoMed">
+        <ul id="parallax2" class="parallax" data-calibrate-x="false" data-calibrate-y="false" data-invert-x="true" data-invert-y="true" data-limit-x="false" data-limit-y="false" data-scalar-x="3" data-scalar-y="0" data-friction-x="0.2" data-friction-y="0.4" data-origin-x="0.0" data-origin-y="0.0">
+            <li class="layer" data-depth="0.10"><img src="/img/montana.png"></li>
+            <li class="layer" data-depth="0.30"><img src="/img/ardilla.png"></li>
+            <li class="layer" data-depth="0.40"><img src="/img/pasto_2.png"></li>
+            <li class="layer" data-depth="0.50"><img src="/img/nubes_rosas.png"></li>
+            <li class="layer" data-depth="0.60"><img src="/img/flores_rojas.png"></li>
+        </ul>
+        <div class="contenedorMed portadaMed">
+            <div class="col1">
+                <a class="accesoIcono">
+                    <img src="/img/boton_hacete-socio.png" />
+                    <h3>Hacete socio</h3>
+                    <p>Disfrutá de los beneficios de ser parte de Club Jauja ¡Asociate!</p>
+                </a>
+            </div>
+            <div class="col2">
+                <a class="accesoIcono">
+                    <img src="/img/boton_beneficios.png" />
+                    <h3>Premios</h3>
+                    <p>Con tu compra de helados ¡sumás puntos para canjear por premios!</p>
+                </a>
+            </div>
+            <div class="col3">
+                <a class="accesoIcono">
+                    <img src="/img/boton_consultas.png" />
+                    <h3>Beneficios</h3>
+                    <p>Descuentos exclusivos todos los días en nuestros locales... ¡y mucho más!</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fondoFin">
+        <div class="contenedorFin">
+            <h1>Premios y beneficios destacados</h1>
+            <div class="col1">
+                <div class="cajaPremioBase">
+                    <div class="imagenCajaPremio">
+                        <img src="/img/premio04.jpg">
+                        <div class='sombra'></div>
+                    </div>
+                    <div class='texto'>
+                        <h4>Vení el día de tu cumpleaños y te llevás un cucurucho sin cargo!</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="cajaPremioBase">
+                    <div class="imagenCajaPremio">
+                        <img src="/img/premio02.jpg">
+                    </div>
+                    <div class='texto'>
+                        <h4>¡Disfrutá del helado que más te gusta con descuentos exclusivos!</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="cajaPremioBase">
+                    <div class="imagenCajaPremio">
+                        <img src="/img/premio03b.jpg">
+                    </div>
+                    <div class='texto'>
+                        <h4>¡Descuentos TODOS los días en helados!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="franjaPieRedes">
+        <div class="contenedorPieRedes">
+            <h1>Seguinos en las redes y enterate de todos los beneficios</h1>
+            <h2>
+                <div class="cajaRed"><a href="https://www.facebook.com/pages/Jauja/113799122866" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></div>
+                <div class="cajaRed"><a href="https://twitter.com/heladosjauja" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></div>
+                <div class="cajaRed"><a href="https://instagram.com/Jauja_helados" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></div>
+                <div class="cajaRed"><a href="http://www.jauja.com.ar" target="_blank"><i class="fa fa-home fa-fw"></i></a></div>
+            </h2>
+        </div>
+    </div>
+    <div class="franjaPie">
+        <footer>
+            <div class="contenedorPie">
+                <div class="imagenPie">
+                    <div class="pie_tripadvisor">
+                        <div></div>
+                    </div>
+                    <div class="pie_cocinera">
+                        <div><img src="/img/logo-pie.png" alt="ClubJauja" /></div>
+                    </div>
+                    <div class="pie_marcapais">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="textoPie">
+                    <p>Copyright 2009 - Helados Jauja S.A. - Todos los derechos reservados<br />Fotografía: Isabel Fleitas y Yael García Ruiz<br />Diseño y desarrollo web: <a target="_blank" title="NodoPatagonia - Diseño y desarrollo de aplicaciones web" href="http://www.nodopatagonia.com.ar">NodoPatagonia</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/js/ajax.js" type="text/javascript"></script>
+    <script src="/js/pantallaNegra.js" type="text/javascript"></script>
+    <script src="/js/parallax.js" type="text/javascript"></script>
+    <script>
+        if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+            var cajaMenu = document.getElementById('cajaMenu');
+            var menuSuperior = document.getElementById('menuSuperior');
+            cajaMenu.addEventListener("mouseover", function() {
+                menuSuperior.style.display = "block";
+            }, false);
+            cajaMenu.addEventListener("mouseout", function() {
+                menuSuperior.style.display = "none";
+            }, false);
+        }
+
+        function irCanjePuntos() {
+            url = "/socio/canjePuntos";
+            window.location = url;
+        }
+    </script>
+
+    <script src="/js/contentloaded.js" type="text/javascript"></script>
+    <script>
+        //Parallax
+        var e1 = document.getElementById('parallax1');
+        var parallax = new Parallax(e1);
+        var e2 = document.getElementById('parallax2');
+        var parallax = new Parallax(e2);
+
+
+        //Slide
+        var flechaIzq = document.getElementById('slideIzq');
+        var flechaDer = document.getElementById('slideDer');
+        var cajaFotoActual = document.getElementById('fotoActual');
+        var cajaFotoSiguiente = document.getElementById('fotoSiguiente');
+        var cajaFotoAnterior = document.getElementById('fotoAnterior');
+        var cantidadFotos = 2;
+        var botonesSlide = document.getElementById('navSlide');
+        var idFotoActual = 1;
+        var idFotoSiguiente = idFotoActual + 1;
+        var idFotoAnterior = cantidadFotos;
+        var vectorFotos = new Array(cantidadFotos);
+
+        function cargoFotos() {
+            vectorFotos[1] = document.createElement('img');
+            vectorFotos[1].src = "/img/slide-1.jpg";
+            vectorFotos[2] = document.createElement('img');
+            vectorFotos[2].src = "/img/slide-4.jpg";
+            flechaIzq.addEventListener('click', function() {
+                elijoFoto(idFotoAnterior);
+            }, true);
+            flechaDer.addEventListener('click', function() {
+                elijoFoto(idFotoSiguiente);
+            }, true);
+        }
+        contentLoaded(window, cargoFotos);
+
+        function setOpacidad(opacidad, elemento) {
+            elemento.style.opacity = opacidad / 100;
+            elemento.style.filter = 'alpha(opacity=' + opacidad + ')';
+        }
+
+        function setIdFotoFlechas(idFotoNueva) {
+            idFotoActual = parseInt(idFotoNueva);
+            if (idFotoActual === cantidadFotos) {
+                idFotoSiguiente = 1;
+            } else {
+                idFotoSiguiente = idFotoActual + 1;
+            }
+            if (idFotoActual === 1) {
+                idFotoAnterior = cantidadFotos;
+            } else {
+                idFotoAnterior = idFotoActual - 1;
+            }
+        }
+
+        function fadeIn(opacidad, nodoFotoNueva) {
+            setOpacidad(opacidad, nodoFotoNueva);
+            if (opacidad === 99) {
+                done = true;
+            }
+        }
+
+        function fadeOut(opacidad, nodoImagenActual, idFotoNueva) {
+            setOpacidad(opacidad, nodoImagenActual);
+            setOpacidad(1, vectorFotos[idFotoNueva]);
+            if (opacidad === 1) {
+                cajaFotoActual.replaceChild(vectorFotos[idFotoNueva], nodoImagenActual);
+                setIdFotoFlechas(idFotoNueva);
+                for (var i = 1; i <= 100; i++) {
+                    setTimeout((function(x) {
+                        return function() {
+                            fadeIn(x, vectorFotos[idFotoNueva]);
+                        };
+                    })(i), i * 3);
+                }
+            }
+        }
+
+        function elijoFoto(idFoto) {
+            var imagenActual = cajaFotoActual.getElementsByTagName('img')[0];
+            for (var i = 1; i <= 100; i++) {
+                setTimeout((function(x) {
+                    return function() {
+                        fadeOut(x, imagenActual, idFoto);
+                    };
+                })(100 - i), i * 3);
+            }
+        }
+
+        function cambiaropa(idfoto, opa) {
+            document.getElementById('slide' + idfoto).className = opa;
+        }
+    </script>
+</body>
+
+</html>
